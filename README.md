@@ -32,13 +32,21 @@ AliceNET é uma rede social simples e funcional onde os usuários podem criar co
 ## 🛠️ Estrutura do Projeto
 
 AliceNET/
+
 ├── assets/ # Imagens, ícones, CSS e JS
+
 ├── includes/ # Arquivos de conexão, funções e configurações
+
 ├── idiomas/ # Arquivos de tradução para os 20 idiomas
+
 ├── pages/ # Páginas internas como perfil, feed, login, etc.
+
 ├── index.php # Página inicial
+
 ├── login.php # Tela de login
+
 ├── register.php # Tela de cadastro
+
 └── ... # Outros arquivos PHP e auxiliares
 
 ---
