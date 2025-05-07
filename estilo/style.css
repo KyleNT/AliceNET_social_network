@@ -1,0 +1,620 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans";
+}
+
+body {
+    background: rgb(225, 225, 225);
+}
+
+.w40 {
+    background: white;
+    width: 40%;
+    float: left;
+    padding: 30px;
+    border: 10px solid rgba(225, 225, 225);
+}
+
+.w30 {
+    background: white;
+    width: 30%;
+    float: left;
+    padding: 30px;
+    border: 10px solid rgba(225, 225, 225);
+}
+
+.w70 {
+    background: white;
+    width: 70%;
+    float: left;
+    padding: 30px;
+    border: 10px solid rgba(225, 225, 225);
+}
+
+.w60 {
+    background: white;
+    width: 60%;
+    float: left;
+    padding: 30px;
+    border: 10px solid rgba(225, 225, 225);
+}
+
+.w100 {
+    background: white;
+    width: 100%;
+    float: left;
+    padding: 30px;
+    border: 10px solid rgba(225, 225, 225);
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+.clear {
+    clear: both;
+}
+
+header {
+    padding: 8px 0;
+    background: #88bff5;
+}
+
+header .logo {
+    float: left;
+}
+
+header .logo a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+header .form-login {
+    float: right;
+}
+
+header .form-login input[type=text],
+header .form-login input[type=password] {
+    width: 200px;
+    height: 25px;
+    border: 1px solic #ccc;
+    padding-left: 8px;
+}
+
+header .form-login input[type=submit] {
+    background: rgb(14, 60, 107);
+    border: 0;
+    cursor: pointer;
+    color: white;
+    height: 25px;
+    width: 120px;
+}
+
+.box {
+    margin: 20px auto;
+    background: white;
+    padding: 30px 15px;
+}
+
+h2.title {
+    font-weight: normal;
+    color: rgb(180, 180, 180);
+    font-size: 20px;
+    text-transform: uppercase;
+    border-bottom: 2px solid rgb(180, 180, 180);
+}
+
+section.cadastro h2 {
+    font-weight: normal;
+    color: rgb(180, 180, 180);
+    font-size: 20px;
+    text-transform: uppercase;
+    border-bottom: 2px solid rgb(180, 180, 180);
+}
+
+section.cadastro form {
+    margin-top: 25px;
+}
+
+section.cadastro input[type=text],
+section.cadastro input[type=password] {
+    width: 100%;
+    height: 35px;
+    margin-bottom: 8px;
+    padding-left: 8px;
+    border: 1px solid #ccc;
+}
+
+section.cadastro input[type=submit] {
+    background: rgb(14, 60, 107);
+    border: 0;
+    cursor: pointer;
+    color: white;
+    display: block;
+    height: 30px;
+    width: 130px;
+    margin-top: 10px;
+}
+
+section.cadastro input[type=file] {
+    border: 1px solid #ccc;
+    width: 100%;
+    padding: 8px;
+}
+
+section.cadastro p {
+    font-size: 14px;
+    margin: 8px 0;
+    color: rgb(180, 180, 180);
+    font-weight: lighter;
+}
+
+.btn-opt-menu {
+    float: right;
+}
+
+.btn-opt-menu a {
+    color: white;
+    text-decoration: none;
+    background: #42a5f5;
+    padding: 10px 7px;
+    display: inline-block;
+}
+
+.container-img {
+    margin-top: 10px;
+}
+
+.container-img img {
+    width: 100%;
+}
+
+.lista-amigos {
+    margin-top: 10px;
+}
+
+.lista-amigos h3 {
+    background: #88bff5;
+    color: white;
+    padding: 8px;
+}
+
+.img-single-amigo {
+    float: left;
+    width: 33.3%;
+    padding-top: 33.3%;
+    position: relative;
+}
+
+.img-single-amigo-wraper {
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    width: calc(100% - 10px);
+    height: calc(100% - 10px);
+    background-size: 100% 100%;
+    background-color: #ccc;
+}
+
+.btn-opt-menu a:hover {
+    text-decoration: underline;
+}
+
+.membro-listagem {
+    width: 20%;
+    float: left;
+    padding: 8px;
+}
+
+.box-imagem {
+    width: 100%;
+    padding-top: 100%;
+    position: relative;
+}
+
+.box-imagem-wraper {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-size: 100% 100%;
+}
+
+.membro-listagem p {
+    color: #4b4b4b;
+    font-size: 15px;
+    margin: 8px 0;
+}
+
+.membro-listagem a {
+    display: inline-block;
+    background: rgb(14, 60, 107);
+    color: white;
+    padding: 4px 5px;
+    font-size: 14px;
+    text-decoration: none;
+    border-radius: 8%;
+}
+
+.solicitacoes__table {
+    margin: 10px 0;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.solicitacoes__table td {
+    text-align: left;
+    /*border: 1px solid #ccc;*/
+}
+
+.solicitacoes__table img {
+    max-width: 70px;
+}
+
+.solicitacoes__table p {
+    margin-top: 8px;
+    font-size: 14px;
+    color: #444;
+}
+
+section.feed textarea {
+    width: 100%;
+    height: 120px;
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+section.feed form {
+    margin-top: 15px;
+}
+
+section.feed input[type=submit] {
+    background: rgb(14, 60, 107);
+    border: 0;
+    margin-top: 8px;
+    cursor: pointer;
+    color: white;
+    display: block;
+    height: 30px;
+    width: 130px;
+    margin-top: 10px;
+}
+
+.post-single-user {
+    margin: 30px 0;
+}
+
+.img-user-post {
+    float: left;
+}
+
+.img-user-post img {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+}
+
+.post-user-single {
+    float: left;
+    width: calc(100% - 60px);
+    padding: 4px 10px;
+}
+
+.post-user-single p {
+    margin: 0 5px;
+    font-size: 15px;
+}
+
+
+/*Mobile 2*/
+
+.mobile {
+    display: none;
+}
+
+.botao-menu-mobile2 {
+    padding: 0 30px;
+    font-size: 24px;
+    cursor: pointer;
+    color: white;
+}
+
+nav.mobile2 .menu-idiomas {
+    top: 55px;
+    z-index: 5;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    display: none;
+    /* Garante que o menu comece escondido */
+    text-align: center;
+    background: white;
+    border-bottom: 1px solid #ccc;
+    padding: 8px 0;
+    box-sizing: border-box;
+}
+
+nav.mobile2 .menu-idiomas.visible {
+    display: block;
+    /* Usado pelo JavaScript para mostrar o menu */
+}
+
+nav.mobile2 .menu-idiomas form {
+    margin: 0;
+    padding: 0;
+}
+
+nav.mobile2 .menu-idiomas select {
+    font-weight: 300;
+    font-size: 17px;
+    color: #444;
+    background: white;
+    border: 1px solid #ccc;
+    /* Adiciona borda para visibilidade */
+    width: 100%;
+    max-width: 200px;
+    /* Limita a largura para melhor aparência */
+    padding: 8px;
+    text-align: center;
+    outline: none;
+    cursor: pointer;
+    -webkit-appearance: none;
+    /* Remove estilo nativo */
+    -moz-appearance: none;
+    appearance: none;
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="10" height="5" viewBox="0 0 10 5"><path d="M0 0l5 5 5-5H0z"/></svg>') no-repeat right 10px center;
+}
+
+.center {
+    max-width: 1280px;
+    padding: 0 2%;
+    margin: 0 auto;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+nav.desktop ul {
+    position: relative;
+    top: 6px;
+    list-style-type: none;
+}
+
+nav.desktop li {
+    font-weight: 300;
+    font-size: 15px;
+    padding: 0 30px;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+nav.desktop a {
+    transition: 1s;
+    color: white;
+    text-decoration: none;
+}
+
+nav.desktop a:hover {
+    text-decoration: underline;
+}
+
+header .logo {
+    font-size: 23px;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: white;
+}
+
+.logo a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* Responsivo */
+
+@media screen and (max-width: 768px) {
+    /*Img em Responsivo:
+    float: none !important, força para fornecer a regra, ou seja, reescreve todas as regras para forçar a usar o código
+    max-width de 500px para não ter uma imagem grande */
+    img {
+        float: none !important;
+        display: block;
+        margin: 0 auto;
+    }
+    /*Quando chegar em 768px, a imagem estará em 100%*/
+    .w30 {
+        padding: 20px;
+        width: 100%;
+    }
+    /*Quando chegar em 768px, a box ser reformada para pular cada linha*/
+    .w40 {
+        padding: 20px;
+        width: 100%;
+    }
+    .w60 {
+        padding: 20px;
+        width: 100%;
+    }
+    .w70 {
+        padding: 20px;
+        width: 100%;
+    }
+}
+
+
+/*Se, for menor do que 700, execute isso*/
+
+
+/*Nota: Tem que verificar onde o menu quebra, e foi mostrado que é 700px*/
+
+@media screen and (max-width: 700px) {
+    nav.desktop {
+        display: none;
+    }
+    nav.mobile {
+        display: block;
+    }
+    nav.mobile2 {
+        display: block;
+    }
+    .botao-menu-mobile {
+        font-size: 24px;
+        cursor: pointer;
+        color: white;
+        padding: 0 30px;
+        line-height: 55px;
+        /* Alinha verticalmente com o header */
+    }
+    .botao-menu-mobile2 {
+        font-size: 24px;
+        cursor: pointer;
+        color: white;
+        padding: 0 30px;
+        line-height: 55px;
+    }
+    /* Estilos para o menu de login */
+    nav.mobile .menu-login {
+        top: 55px;
+        z-index: 5;
+        position: absolute;
+        left: 0;
+        right: 0;
+        width: 100%;
+        display: none;
+        /* Começa escondido */
+        text-align: center;
+        background: white;
+        border-bottom: 1px solid #ccc;
+        padding: 10px 0;
+        box-sizing: border-box;
+    }
+    nav.mobile .menu-login.visible {
+        display: block;
+        /* Exibido quando toggled */
+    }
+    nav.mobile .menu-login form {
+        margin: 0;
+        padding: 0 20px;
+    }
+    nav.mobile .menu-login input[type="text"],
+    nav.mobile .menu-login input[type="password"],
+    nav.mobile .menu-login input[type="submit"] {
+        width: 100%;
+        max-width: 300px;
+        margin: 8px auto;
+        padding: 10px;
+        font-size: 16px;
+        font-weight: 300;
+        color: #444;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+    nav.mobile .menu-login input[type="submit"] {
+        background: #007bff;
+        color: white;
+        border: none;
+        cursor: pointer;
+        transition: background 0.3s;
+    }
+    nav.mobile .menu-login input[type="submit"]:hover {
+        background: #0056b3;
+    }
+    /* Estilos existentes para o menu de idiomas */
+    nav.mobile2 .menu-idiomas {
+        top: 55px;
+        z-index: 5;
+        position: absolute;
+        left: 0;
+        right: 0;
+        width: 100%;
+        display: none;
+        text-align: center;
+        background: white;
+        border-bottom: 1px solid #ccc;
+        padding: 8px 0;
+        box-sizing: border-box;
+    }
+    nav.mobile2 .menu-idiomas.visible {
+        display: block;
+    }
+    nav.mobile2 .menu-idiomas form {
+        margin: 0;
+        padding: 0;
+    }
+    nav.mobile2 .menu-idiomas select {
+        font-weight: 300;
+        font-size: 17px;
+        color: #444;
+        background: white;
+        border: 1px solid #ccc;
+        width: 100%;
+        max-width: 200px;
+        padding: 8px;
+        text-align: center;
+        outline: none;
+        cursor: pointer;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="10" height="5" viewBox="0 0 10 5"><path d="M0 0l5 5 5-5H0z"/></svg>') no-repeat right 10px center;
+    }
+    nav.mobile ul {
+        top: 55px;
+        z-index: 5;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        display: none;
+        text-align: center;
+    }
+    nav.mobile li {
+        font-weight: 300;
+        width: 100%;
+        display: block;
+        background: white;
+        border-bottom: 1px solid #ccc;
+        font-size: 17px;
+        padding: 8px 0;
+    }
+    nav.mobile li a {
+        display: block;
+        color: #444;
+        text-decoration: none;
+    }
+    nav.mobile2 ul {
+        top: 55px;
+        z-index: 5;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        text-align: center;
+    }
+    nav.mobile2 li {
+        font-weight: 300;
+        width: 100%;
+        display: block;
+        background: white;
+        border-bottom: 1px solid #ccc;
+        font-size: 17px;
+        padding: 8px 0;
+    }
+    nav.mobile2 li a {
+        display: block;
+        color: #444;
+        text-decoration: none;
+    }
+}
