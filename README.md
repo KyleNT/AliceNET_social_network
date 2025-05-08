@@ -74,7 +74,7 @@ http://localhost/AliceNET/
 ---
 
 📚 Créditos
-Desenvolvido por KyleNT
+Desenvolvido por KyleNT, Danki Code
 Hospedagem gratuita com SSL: InfinityFree
 
 📄 Licença
